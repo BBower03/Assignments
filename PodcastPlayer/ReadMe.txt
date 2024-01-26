@@ -1,8 +1,14 @@
 Brendan Bower
 
+Designed for use on a Linux OS
 Compilation: run "make" from command line
 
 running: "./test" 
+
+General Overview:
+	This program mimics a podcast streaming software. The audio and video files are just text files for the purposes of this asisgnment. The user can search, add and remove podcasts from their playlist. The user can also "stream" the podcast.
+
+Notes: There are memory leaks in this program. Almost all of the destructors are not implimented, though I plan to in the near future.
 
 Classes:
 
